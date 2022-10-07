@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://www.dropbox.com/s/wgymsfc67r6gz9b/8330Poppins-regular.woff2?dl=0') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  margin: 0;
+  background: #F2E9E5;
+  text-align: center;
+}
+
+.ec-animation-container {
+  animation: fade-in-move-down 2s;
+  -webkit-animation: fade-in-move-down 2s;
+  -moz-animation: fade-in-move-down 2s;
+  -o-animation: fade-in-move-down 2s;
+  -ms-animation: fade-in-move-down 2s;
+}
+
+.ec-logo-animation {
+    width: 20%;
+    margin-top: 2em;
+    border-radius: 100%;
+}
+
+.ec-logo-animation rect {
+  fill: #C9BBD2;
+}
+
+.ec-logo-animation text {
+  font-size: 60px;
+  font-family: 'Poppins' !important;
+  text-transform: uppercase;
+  font-weight: 900;
+  fill: #C9BBD2;
+}
+
+.fl-node-6112b2c277ebf > .fl-row-content-wrap {
+    padding-top: 0;
+}
+
+.fl-node-6112b2c8efa76 .fl-photo-img, .fl-node-6112b2c8efa76 .fl-photo-content {
+    width: 459px;
+}
+
+@keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-ms-keyframes fade-in-move-down {
+   0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
