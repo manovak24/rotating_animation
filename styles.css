@@ -12,6 +12,10 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .ec-animation-container {
   animation: fade-in-move-down 2s;
   -webkit-animation: fade-in-move-down 2s;
@@ -22,6 +26,7 @@ body {
 
 .ec-logo-animation {
     width: 20%;
+
     margin-top: 2em;
     border-radius: 100%;
 }
